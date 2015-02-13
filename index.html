@@ -2,6 +2,7 @@
 <html>
 <head>
     <link href='http://fonts.googleapis.com/css?family=Mate+SC' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="stylesheet.css" />
     <meta charset="utf-8">
@@ -22,11 +23,15 @@
 <body>
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    <div class="header">
+    <div class="header row">
         <div class="navbar navbar-default" role="navigation">
             <div class="navbar-header">
                 <div class="container">
-                    <ul class="nav navbar-nav">
+                    <div class="logo col-sm-6 col-lg-6 col-xs-6 pull-left">
+                        <img src="website_photos/kg_logo-03.png" height="40px" width="40px">
+                        <a href="index.html"><span class="name">Kalie Gachnang</span></a>
+                    </div>
+                    <ul class="nav navbar-nav col-lg-6 col-sm-6 col-xs-6 pull-right">
                         <li class="active"><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li class="dropdown">
@@ -43,9 +48,9 @@
             </div>
         </div>
     </div>
-    <div class="banner"></div>
-    <div class="homephoto">
-        <img src="website_photos/home_slideshow/home-01.png" name="slide" width=958px height=401px>
+    <div class="banner row"></div>
+    <div class="row">
+        <img class="homephoto img-responsive" src="website_photos/home_slideshow/home-01.png" name="slide" width=958px height=401px>
         <script type="text/javascript">
             <!--
             //variable that will increment through the images
