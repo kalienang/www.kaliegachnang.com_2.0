@@ -1,0 +1,141 @@
+body {
+    width: 1280px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 355px;
+    height: 90px;
+}
+
+.banner {
+    height: 10px;
+    width: 1280px;
+    background-color: black;
+}
+
+.homephoto {
+    width: 958px;
+    height: 401px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.navbar-default {
+    float: right;
+    margin-top: -50px;
+    box-shadow: none;
+    border: none;
+    background: none;
+    background-color: transparent;
+    border-color: transparent;
+    color: black;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    background-color: transparent;
+    background: transparent;
+}
+
+a:link {
+    color:black;
+    text-decoration: none;
+    font-family: 'Mate SC', sans-serif;
+    padding: 5px;
+    background-color: transparent;
+}
+
+a:visited {
+    color:black;
+    text-decoration: none;
+    font-family: 'Mate SC', sans-serif;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+li {
+    color: white;
+}
+
+.about {
+    width: 960px;
+    margin: auto;
+}
+
+.aboutphoto {
+    padding-top: 20px;
+    float: right;
+    width: 255px;
+}
+
+.abouttext {
+    margin: auto;
+    float: left;
+    width: 685px;
+    font-family: 'Mate SC', sans-serif;
+    font-size: 17px;
+    padding-top: 30px;
+}
+
+#galleria {
+ margin: auto;
+ margin-top: 20px;
+}
+
+.contact {
+    width: 960px;
+    margin: auto;
+}
+
+.contactheader {
+    font-family: 'Mate SC', sans-serif;
+    font-size: 30px;
+    margin: auto;
+    display: block;
+}
+
+.bannerimg {
+    width: 960px;
+    height: 200px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+div.description {
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+p {
+    font-family: 'Mate SC', sans-serif;
+}
+
+#email {
+    font-size: 21px;
+}
+
+#contact {
+    font-size: 14px
+}
+
+.message {
+    font-family: 'Mate SC', sans-serif;
+    display: block;
+    margin: auto;
+    font-size: 21px;
+}
+
+
+
+
+
