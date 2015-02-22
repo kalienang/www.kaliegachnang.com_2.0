@@ -9,57 +9,62 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
     <script src="galleria/galleria-1.2.9.min.js"></script>
     <style>
-        #galleria{ width: 700px; height: 400px; background: #000 }
+        #galleria{ width: 800px; height: 500px; background: #000 }
     </style>
 </head>
 <body>
-<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<div class="header row">
-    <div class="navbar navbar-default" role="navigation">
-        <div class="navbar-header">
-            <div class="container">
-                <div class="logo col-sm-6 col-lg-7 col-xs-12">
-                    <img src="website_photos/kg_logo-03.png" height="40px" width="40px">
-                    <a href="index.html">Kalie Gachnang</a>
-                </div>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="graphic_design.html">Graphic Design</a></li>
-                            <li><a href="woodworking.html">Woodworking</a></li>
-                            <li><a href="other_work.html">Other Work</a></li>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <div class="header container">
+        <div class="row">
+            <div class="col-md-2 col-lg-2"></div>
+            <div class="col-md-8 col-lg-8">
+                <div class="navbar navbar-default container" role="navigation">
+                    <div class="navbar-header">
+                        <div class="logo col-xs-12 col-md-4 col-lg-4">
+                            <img src="website_photos/kg_logo-03.png" height="40px" width="40px">
+                            <a href="index.html"><span class="name">Kalie Gachnang</span></a>
+                        </div>
+                        <ul class="nav navbar-nav navbar-right col-xs-12 col-md-8 col-lg-8">
+                            <li class="active col-xs-2"><a href="index.html">Home</a></li>
+                            <li class="col-xs-2"><a href="about.html">About</a></li>
+                            <li class="dropdown col-xs-3">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
+                                <ul class="dropdown-menu">
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="design.html">Design</a></li>
+                                    <li><a href="woodworking.html">Woodworking</a></li>
+                                </ul>
+                            </li>
+                            <li class="shop col-xs-2"><a href="https://www.etsy.com/shop/kggallery" target="_blank">Shop</a></li>
+                            <li class="col-xs-2"><a href="contact.html">Contact</a></li>
                         </ul>
-                    </li>
-                    <li><a href="https://www.etsy.com/shop/kaliescarvings" target="_blank">Shop</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+                    </div>
+                </div>
             </div>
+            <div class="col-md-2 col-lg-2"></div>
         </div>
     </div>
-</div>
-<div class="banner"></div>
-<div id="galleria">
-    <img src="website_photos\graphic_design\web_portfolio-08.png" />
-    <img src="website_photos\graphic_design\web_portfolio-10.png" />
-    <img src="website_photos\graphic_design\web_portfolio-11.png" />
-    <img src="website_photos\graphic_design\web_portfolio-04.png" />
-    <img src="website_photos\graphic_design\web_portfolio-05.png" />
-    <img src="website_photos\graphic_design\web_portfolio-06.png" />
-    <img src="website_photos\graphic_design\web_portfolio-07.png" />
-    <img src="website_photos\graphic_design\web_portfolio-01.png" />
-    <img src="website_photos\graphic_design\web_portfolio-02.png" />
-    <img src="website_photos\graphic_design\web_portfolio-03.png" />
-    <script>
-        Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
-        Galleria.run('#galleria');
-    </script>
-</div>
-<div class="description">
-    All images were created using Adobe Illustrator, PhotoShop, and InDesign.
-</div>
+    <div class="banner row"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-lg-2"></div>
+    <div id="galleria" class="img-responsive col-xs-12 col-md-8 col-lg-8">
+        <img src="website_photos/design/kalie_gachnang_portfolio2.png" />
+        <img src="website_photos/design/kalie_gachnang_portfolio3.png" />
+        <img src="website_photos/design/kalie_gachnang_portfolio4.png" />
+        <img src="website_photos/design/kalie_gachnang_portfolio5.png" />
+        <img src="website_photos/design/kalie_gachnang_portfolio6.png" />
+        <img src="website_photos/design/kalie_gachnang_portfolio7.png" />
+        <img src="website_photos/design/kalie_gachnang_portfolio8.png" />
+        <img src="website_photos/design/kalie_gachnang_portfolio9.png" />
+        <img src="website_photos/design/kalie_gachnang_portfolio10.png" />
+        <script>
+            Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+            Galleria.run('#galleria');
+        </script>
+    </div>
+            <div class="col-md-2 col-lg-2"></div>
+    </div>
+    </div>
 </body>
 </html>
