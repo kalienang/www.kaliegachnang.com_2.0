@@ -19,7 +19,7 @@ body {
 }
 
 .name {
-    font-family: 'Great Vibes', 'Mate SC', sans-serif;
+    font-family: 'Great Vibes', 'Lato', sans-serif;
     font-size: 24px;
 }
 
@@ -51,7 +51,7 @@ body {
 a:link {
     color:black;
     text-decoration: none;
-    font-family: 'Mate SC', sans-serif;
+    font-family: 'Lato', sans-serif;
     padding: 5px;
     background-color: transparent;
     margin: 0;
@@ -60,7 +60,7 @@ a:link {
 a:visited {
     color:black;
     text-decoration: none;
-    font-family: 'Mate SC', sans-serif;
+    font-family: 'Lato', sans-serif;
     padding: 5px;
 }
 
@@ -90,7 +90,7 @@ li {
 
 .abouttext {
     margin: auto;
-    font-family: 'Mate SC', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 17px;
     padding-top: 30px;
 }
@@ -118,7 +118,7 @@ li {
 }*/
 
 p {
-    font-family: 'Mate SC', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .contact {
@@ -135,12 +135,25 @@ p {
 }
 
 .message {
-    font-family: 'Mate SC', sans-serif;
+    font-family: 'Lato', sans-serif;
     display: block;
     margin: auto;
     font-size: 21px;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
+.thumb {
+    border: solid 1px black;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.row1 {
+    margin: auto;
+}
 
 
 

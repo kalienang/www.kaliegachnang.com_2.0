@@ -3,24 +3,16 @@
 <head>
     <link href='http://fonts.googleapis.com/css?family=Mate+SC' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <link type="text/css" rel="stylesheet" href="stylesheet.css">
+    <link type="text/css" rel="stylesheet" href="lightbox/css/lightbox.css">
     <meta charset="utf-8">
     <title>Kalie Gachnang</title>
-    <script type="text/javascript">
-        var image1=new Image();
-        image1.src="website_photos/home_slideshow/home-01.png";
-        var image2=new Image();
-        image2.src="website_photos/home_slideshow/home-02.png";
-        var image3=new Image();
-        image3.src="website_photos/home_slideshow/home-03.png";
-        var image4=new Image();
-        image4.src="website_photos/home_slideshow/home-04.png";
-        var image5=new Image();
-        image5.src="website_photos/home_slideshow/home-05.png";
-    </script>
 </head>
 <body>
+    <script src="lightbox/js/jquery-1.11.0.min.js"></script>
+    <script src="lightbox/js/lightbox.min.js"></script>
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <div class="header container">
@@ -36,44 +28,68 @@
                             <ul class="nav navbar-nav navbar-right col-xs-12 col-md-8 col-lg-8">
                                 <li class="active col-xs-2"><a href="index.html">Home</a></li>
                                 <li class="col-xs-2"><a href="about.html">About</a></li>
-                                <li class="dropdown col-xs-3">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
-                                    <ul class="dropdown-menu">
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="design.html">Design</a></li>
-                                        <li><a href="woodworking.html">Woodworking</a></li>
-                                    </ul>
-                                </li>
+                                <li class="dropdown col-xs-3"><a href="woodworking.html">Woodworking</a></li>
                                 <li class="shop col-xs-2"><a href="https://www.etsy.com/shop/kggallery" target="_blank">Shop</a></li>
                                 <li class="col-xs-2"><a href="contact.html">Contact</a></li>
                             </ul>
                         </div>
                     </div>
-                </div>
-            <div class="col-md-2 col-lg-2"></div>
+                <div class="col-md-2 col-lg-2"></div>
+            </div>
         </div>
     </div>
     <div class="banner row"></div>
+        <br>
+
     <div class="row">
-        <img class="homephoto img-responsive" src="website_photos/home_slideshow/home-01.png" name="slide" width=958px height=401px>
-        <script type="text/javascript">
-            <!--
-            //variable that will increment through the images
-            var step=1
-            function slideit(){
-//if browser does not support the image object, exit.
-                if (!document.images)
-                    return
-                document.images.slide.src=eval("image"+step+".src")
-                if (step<5)
-                    step++
-                else
-                    step=1
-//call function "slideit()" every 2.5 seconds
-                setTimeout("slideit()",4000)
-            }
-            slideit()
-            //-->
-        </script>
+        <div class="col-md-2 col-lg-2"></div>
+            <div class="col-md-8 col-lg-8">
+                <img class="img-responsive" src="website_photos/home_photo.png">
+                <div class="row-fluid">
+                <a class="span3" href="website_photos/design/brochure_outside_2014_final.jpg" data-lightbox="acappellago"><img class="thumb" src="website_photos/design/invite_outside_thung.jpg"> </a>
+                <a class="hidden" href="website_photos/design/brochure_inside_2014_final.jpg" data-lightbox="acappellago"></a>
+                <a class="hidden" href="website_photos/design/winter_front.jpg" data-lightbox="acappellago"></a>
+                <a class="hidden" href="website_photos/design/winter_back.jpg" data-lightbox="acappellago"></a>
+                <a class="hidden" href="website_photos/design/spring_front.jpg" data-lightbox="acappellago"></a>
+                <a class="hidden" href="website_photos/design/spring_back.jpg" data-lightbox="acappellago"></a>
+                <a class="hidden" href="website_photos/design/invite_outside_final.jpg" data-lightbox="acappellago"></a>
+                <a class="hidden" href="website_photos/design/invite_inside_final.jpg" data-lightbox="acappellago"></a>
+                <a class="span3" href="website_photos/design/wedding_invite.jpg" data-lightbox="birch"><img class="thumb" src="website_photos/design/wedding_invite_thumb.jpg"></a>
+                <a class="hidden" href="website_photos/design/birch_invite_text.jpg" data-lightbox="birch"></a>
+                <a class="hidden" href="website_photos/design/birch_directions.jpg" data-lightbox="birch"></a>
+                <a class="hidden" href="website_photos/design/birch_accommodations.jpg" data-lightbox="birch"></a>
+                <a class="hidden" href="website_photos/design/birch_rsvp.jpg" data-lightbox="birch"></a>
+                <a class="hidden" href="website_photos/design/programs-01.jpg" data-lightbox="birch"></a>
+                <a class="hidden" href="website_photos/design/programs-02.jpg" data-lightbox="birch"></a>
+                <a class="span3" href="website_photos/design/dara_tshirt.jpg" data-lightbox="dara"><img class="thumb" src="website_photos/design/dara_tshirt_thumb.jpg"> </a>
+                <a class="hidden" href="website_photos/design/dara_business_card.jpg" data-lightbox="dara"></a>
+                <a class="hidden" href="website_photos/design/dara_postcard_front.jpg" data-lightbox="dara"></a>
+                <a class="hidden" href="website_photos/design/dara_postcard_back.jpg" data-lightbox="dara"></a>
+                <a class="span3" href="website_photos/design/timothy.jpg" data-lightbox="timothy"><img class="thumb" src="website_photos/design/timothy_tree_thumb.jpg"></a>
+                <a class="hidden" href="website_photos/design/mayor.jpg" data-lightbox="timothy"></a>
+                <a class="hidden" href="website_photos/design/crowd.jpg" data-lightbox="timothy"></a>
+                <a class="hidden" href="website_photos/design/plain_tree.jpg" data-lightbox="timothy"></a>
+                <a class="hidden" href="website_photos/design/silver_tree.jpg" data-lightbox="timothy"></a>
+                <a class="hidden" href="website_photos/design/glitter_tree.jpg" data-lightbox="timothy"></a>
+                <a class="hidden" href="website_photos/design/gold_tree.jpg" data-lightbox="timothy"></a>
+                <a class="hidden" href="website_photos/design/timothy_tree.jpg" data-lightbox="timothy"></a>
+                </div>
+            </div>
+        <div class="col-md-2 col-lg-2"></div>
     </div>
+        <br>
+    <div class="row">
+        <div class="col-md-2 col-lg-2"></div>
+            <div class="col-md-8 col-lg-8">
+                <div class="row-fluid">
+                <a class="span3" href="website_photos/design/payton_poster_2-01.jpg" data-lightbox="payton"><img class="thumb" src="website_photos/design/payton_thumb.jpg"></a>
+                <a class="span3" href="website_photos/design/sf_skyline.jpg" data-lightbox="skyline"><img class="thumb" src="website_photos/design/sf_skyline_thumb.jpg"></a>
+                <a class="span3" href="website_photos/design/moving_example.jpg" data-lightbox="moving"><img class="thumb" src="website_photos/design/moving_example_thumb.jpg"></a>
+                <a class="span3" href="website_photos/design/AND_final2.jpg" data-lightbox="and"><img class="thumb" src="website_photos/design/AND_final2_thumb.jpg"></a>
+                </div>
+            </div>
+        <div class="col-md-2 col-lg-2"></div>
+    </div>
+    <br>
 </body>
 </html>
